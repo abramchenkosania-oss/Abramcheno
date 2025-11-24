@@ -1,0 +1,101 @@
+
+---
+
+```html
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Курс маникюра от Абрамченко Яны</title>
+  <style>
+    body { font-family: 'Segoe UI', Arial, sans-serif; background: #faf7f5; color: #444; margin:0; }
+    .container { max-width: 800px; margin: auto; padding: 16px; }
+    header { text-align: center; padding: 24px 0 8px 0; }
+    .avatar { width: 170px; border-radius: 100px; box-shadow: 0 2px 14px #e0c69d66; margin: 16px 0; }
+    h1 { margin-bottom: 4px; color: #B28157; font-size: 2em; }
+    h2 { color: #B28157; }
+    .price { background: #fff6ed; border: 1px solid #fae3d0; display: inline-block; margin: 18px 0; padding: 12px 28px; font-size: 2em; color: #B28157; border-radius: 14px; }
+    .btn { display: inline-block; background: #B28157; color: #fff; font-size: 1.2em; padding: 14px 30px; border: none; border-radius: 8px; text-decoration: none; margin-top: 18px; box-shadow:0 3px 12px #e0c69d22; transition: filter .2s; }
+    .btn:hover { filter: brightness(1.05); }
+    section { margin: 36px 0; }
+    .lessons { background: #fff; border-radius: 14px; box-shadow:0 4px 24px #e0c69d29; padding: 24px; margin: 28px 0; }
+    .lessons li { margin-bottom: 12px; }
+    .highlights { display: flex; justify-content: space-around; margin: 30px 0;}
+    .highlight { flex: 1; background: #fff6ed; margin: 3px; padding: 10px 0; border-radius: 10px; color: #B28157; font-weight: 700; }
+    .reviews { background: #fec; border-radius: 14px; padding: 22px; margin: 24px 0;}
+    .review { margin-bottom: 16px; font-style: italic; }
+    footer { text-align: center; color: #c0a075; margin: 48px 0 12px 0; font-size: 0.95em; }
+    @media (max-width:680px){
+      .container{padding:4px;}
+      .highlights{flex-direction:column;}
+      .highlight{margin: 7px 0;}
+      .lessons{padding:10px;}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="/mnt/data/ab9d26b15283b74da62874d04344fdd4-image.png" alt="Абрамченко Яна" class="avatar">
+      <h1>Курс маникюра от Абрамченко Яны</h1>
+      <div>Начни свой путь к успеху в nail-индустрии с уникальной методикой <b>от Яны Абрамченко!</b></div>
+      <div class="price">9$ &nbsp; <small>за полный курс</small></div>
+      <a href="https://wa.me/48577637160" class="btn" target="_blank">Записаться в WhatsApp</a>
+    </header>
+
+    <section>
+      <div class="highlights">
+        <div class="highlight">Уникальная методика</div>
+        <div class="highlight">Сертификат</div>
+        <div class="highlight">Поддержка 24/7</div>
+        <div class="highlight">Старт обучения — уже сегодня!</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>10 занятий курса</h2>
+      <ul class="lessons">
+        <li>1. Основы и стерильность. Знакомство с инструментами.</li>
+        <li>2. Подготовка ногтей. Безопасная обработка кутикулы.</li>
+        <li>3. Идеальный ровный тон: секреты покрытия гель-лаком.</li>
+        <li>4. Художественные техники. Базовые дизайны.</li>
+        <li>5. Аппаратный маникюр: лайфхаки для новичков.</li>
+        <li>6. Быстрая коррекция. "Реанимация" сломанных ногтей.</li>
+        <li>7. Камуфляж и выравнивание. Современные тренды.</li>
+        <li>8. Френч, омбре, минимализм: секреты мастера.</li>
+        <li>9. Работа с капризными клиентами. Общение и сервис.</li>
+        <li>10. Экзамен, сертификат и старт самостоятельной работы.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Чем мой курс отличается?</h2>
+      <ul>
+        <li>Уникальные авторские методики — результат реального опыта с клиентами.</li>
+        <li>Мгновенный старт. Можно начать обучение сразу после оплаты.</li>
+        <li>Выдаю сертификат — станет базой для вашей карьеры.</li>
+        <li>Личная поддержка: чат с Яной и ответ на любые вопросы 24/7.</li>
+      </ul>
+    </section>
+
+    <section class="reviews">
+      <h2>Отзывы выпускников:</h2>
+      <div class="review">«Благодаря Яне я открыла свой мини-кабинет! Всё доступно, очень поддерживала на каждом этапе.» — <b>Мария, 26 лет</b> </div>
+      <div class="review">«За 2 недели вышла на первых клиентов. Сертификат принял даже салон в центре города!» — <b>Алина, 31 год</b></div>
+      <div class="review">«Теперь я зарабатываю на любимом деле и свободно планирую свой день!» — <b>Екатерина, 22 года</b></div>
+    </section>
+
+    <section style="text-align: center;">
+      <a href="https://wa.me/48577637160" class="btn" target="_blank">Записаться на курс (WhatsApp)</a>
+      <div style="margin-top:12px; color:#bba88e;">Специальная цена 9$ для первых учеников</div>
+    </section>
+
+    <footer>
+      © 2024 Абрамченко Яна. Все права защищены.<br>
+      <span style="font-size:.95em; color:#cbb292;">Created by Syntx.Ai</span>
+    </footer>
+  </div>
+</body>
+</html>
+```
